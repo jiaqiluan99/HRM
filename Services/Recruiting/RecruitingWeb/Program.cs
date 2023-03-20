@@ -1,7 +1,21 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using ApplicationCore.Contracts.Repositories;
+using ApplicationCore.Contracts.Services;
+using Infrastructure.Data;
+using Infrastructure.Repositories;
+using Infrastructure.Services;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IJobService, JobService>();
+builder.Services.AddScoped<IJobRepository, JobRepository>();
+
+//inject our connectionString into DbContext
+builder.Services.AddDbContext<RecruitingDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection"))
+    );
 
 var app = builder.Build();
 
