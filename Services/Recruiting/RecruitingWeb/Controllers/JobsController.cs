@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Contracts.Services;
+using ApplicationCore.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RecruitingWeb.Controllers
@@ -24,10 +25,27 @@ namespace RecruitingWeb.Controllers
             return View(job);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
+
+        // Saving the Job Information
+        [HttpPost]
+        public async Task<IActionResult> Create(JobRequestModel model)
+        {
+            // check if the model is valid, on the server
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            // save the data in database
+            // return to the index view
+            await _jobService.AddJob(model);
+            return RedirectToAction("Index");
+        }
     }
 }
+
 

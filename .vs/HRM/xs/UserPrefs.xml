@@ -1,4 +1,50 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{656F34DD-A76E-4A8C-B782-B25023CB4E26}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs">
+    <Files>
+      <File FileName="Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" Line="36" Column="33" />
+      <File FileName="Services/Recruiting/ApplicationCore/Contracts/Repositories/IRepository.cs" Line="1" Column="1" />
+      <File FileName="Services/Recruiting/ApplicationCore/Contracts/Repositories/IJobRepository.cs" Line="10" Column="38" />
+      <File FileName="Services/Recruiting/Infrastructure/Repositories/Repository.cs" Line="1" Column="1" />
+      <File FileName="Services/Recruiting/Infrastructure/Repositories/JobRepository.cs" Line="20" Column="21" />
+      <File FileName="Services/Recruiting/Infrastructure/Services/JobService.cs" Line="58" Column="37" />
+      <File FileName="Services/Recruiting/ApplicationCore/Contracts/Services/IJobService.cs" Line="10" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRM">
+            <Node name="Recruiting" expanded="True">
+              <Node name="ApplicationCore">
+                <Node name="Contracts" expanded="True">
+                  <Node name="Repositories" expanded="True" />
+                  <Node name="Services" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Infrastructure">
+                <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="RecruitingWeb">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="JobsController.cs" selected="True" />
+                </Node>
+                <Node name="Infra" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Jobs" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
