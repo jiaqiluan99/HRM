@@ -1,0 +1,12 @@
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.deps.json
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.AssemblyInfo.cs
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/refint/ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/Recruiting/ApplicationCore/obj/Debug/net7.0/ref/ApplicationCore.dll
