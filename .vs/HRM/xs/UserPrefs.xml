@@ -1,22 +1,24 @@
-﻿<Properties StartupConfiguration="{BDE9A237-288C-4792-A16E-D8295876A1B8}|https" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BDE9A237-288C-4792-A16E-D8295876A1B8}|https">
   <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/RecruitingWeb/Views/Jobs/Create.cshtml">
+    <Files>
+      <File FileName="Services/Recruiting/RecruitingWeb/Views/Jobs/Create.cshtml" Line="9" Column="25" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HRM" expanded="True">
+          <Node name="HRM">
             <Node name="Recruiting" expanded="True">
               <Node name="RecruitingWeb" expanded="True">
                 <Node name="Controllers" expanded="True" />
                 <Node name="Infra" expanded="True" />
                 <Node name="Views" expanded="True">
-                  <Node name="Jobs" expanded="True" />
+                  <Node name="Jobs" expanded="True">
+                    <Node name="Create.cshtml" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -25,5 +27,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
 </Properties>
