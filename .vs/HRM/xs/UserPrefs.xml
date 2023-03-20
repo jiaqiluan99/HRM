@@ -1,11 +1,13 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BDE9A237-288C-4792-A16E-D8295876A1B8}|https">
-  <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/RecruitingWeb/Views/Jobs/Create.cshtml">
     <Files>
-      <File FileName="Services/Recruiting/RecruitingWeb/Views/Jobs/Create.cshtml" Line="16" Column="37" />
+      <File FileName="Services/Recruiting/RecruitingWeb/Views/Jobs/Create.cshtml" Line="13" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,7 +30,5 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
