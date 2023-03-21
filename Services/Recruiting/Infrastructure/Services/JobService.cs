@@ -24,10 +24,12 @@ public class JobService : IJobService
             jobsResponseModel.Add(new JobResponseModel
             {
                 Id = job.Id,
-                Description = job.Description,
+                JobCode = job.JobCode,
+                NumberOfPositions = job.NumberOfPositions,
                 Title = job.Title,
+                Description = job.Description,
                 StartDate = job.StartDate.GetValueOrDefault(),
-                NumberOfPositions = job.NumberOfPositions
+                
             });
 
         return jobsResponseModel;
@@ -39,9 +41,13 @@ public class JobService : IJobService
         var jobResponseModel = new JobResponseModel
         {
             Id = job.Id,
+            JobCode = job.JobCode,
+            NumberOfPositions = job.NumberOfPositions,
             Title = job.Title,
             StartDate = job.StartDate.GetValueOrDefault(),
-            Description = job.Description
+            Description = job.Description,
+            IsActive = job.IsActive,
+            CreatedOn = job.CreatedOn
         };
         return jobResponseModel;
     }
@@ -56,8 +62,8 @@ public class JobService : IJobService
             Description = model.Description,
             CreatedOn = DateTime.UtcNow,
             NumberOfPositions = model.NumberOfPositions,
-            JobStatusLookUpId = 1
-
+            JobStatusLookUpId = 1,
+            IsActive = true
         };
 
         var job = await _jobRepository.AddAsync(jobEntity);
