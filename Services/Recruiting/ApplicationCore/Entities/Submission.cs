@@ -10,7 +10,7 @@ public class Submission
     public DateTime? SubmittedOn { get; set; }
     public DateTime? SelectedForInterview { get; set; }
     public DateTime? RejectedOn { get; set; }
-    public string RejectedReason { get; set; }
+    public string? RejectedReason { get; set; }
 
     public Job Job { get; set; }
     public Candidate Candidate { get; set; }

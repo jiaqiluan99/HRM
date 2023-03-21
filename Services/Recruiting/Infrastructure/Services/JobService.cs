@@ -62,7 +62,7 @@ public class JobService : IJobService
             Description = model.Description,
             CreatedOn = DateTime.UtcNow,
             NumberOfPositions = model.NumberOfPositions,
-            JobStatusLookUpId = 1,
+            JobStatusLookUpId = model.JobStatusLookUp,
             IsActive = true
         };
 

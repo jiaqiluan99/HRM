@@ -27,9 +27,11 @@
   <ItemGroup>
     <None Remove="Views\Jobs\" />
     <None Remove="Infra\" />
+    <None Remove="Views\Submissions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Jobs\" />
     <Folder Include="Infra\" />
+    <Folder Include="Views\Submissions\" />
   </ItemGroup>
 </Project>
