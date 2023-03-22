@@ -7,6 +7,7 @@ namespace ApplicationCore.Contracts.Services
 	{
         Task<bool> EmailExisted(string email);
         Task<int> AddSubmission(SubmissionRequestModel model);
+        public Task<SubmissionResponseModel> GetSubmissionById(int id);
     }
 }
 

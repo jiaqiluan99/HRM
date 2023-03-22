@@ -17,26 +17,38 @@ namespace Infrastructure.Services
             _candidateRepository = candidateRepository;
         }
 
-
+        public async Task<SubmissionResponseModel> GetSubmissionById(int id)
+        {
+            var submission = await _submissionRepository.GetSubmissionById(id);
+            var submissionResponseModel = new SubmissionResponseModel
+            {
+                Id = submission.Id,
+                JobId = submission.JobId,
+                CandidateId = submission.CandidateId,
+                SubmittedOn = submission.SubmittedOn
+            };
+            return submissionResponseModel;
+        }
 
         public async Task<int> AddSubmission(SubmissionRequestModel model)
         {
             // call the repository that will use EF Core to save the data
 
-            var candidateEntity = new Candidate
-            {
-                FirstName = model.FirstName,
-                LastName = model.LastName,
-                Email = model.Email,
-                CreatedOn = DateTime.UtcNow
-            };
+            //var candidateEntity = new Candidate
+            //{
+            //    FirstName = model.FirstName,
+            //    LastName = model.LastName,
+            //    Email = model.Email,
+            //    CreatedOn = DateTime.UtcNow
+            //};
 
-            var candidate = await _candidateRepository.AddAsync(candidateEntity);
+            //var candidate = await _candidateRepository.AddAsync(candidateEntity);
 
             var submissionEntity = new Submission
             {
-                CandidateId = candidate.Id,
-                JobId = model.JobId
+                CandidateId = 1,
+                JobId = model.JobId,
+                SubmittedOn = DateTime.UtcNow
             };
 
             var submission = await _submissionRepository.AddAsync(submissionEntity);

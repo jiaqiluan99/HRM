@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,7 +27,7 @@ namespace RecruitingWeb.Controllers
         {
             // get job by Id
             var job = await _jobService.GetJobById(id);
-            var submission = new SubmissionRequestModel
+            var submission = new SubmissionRequestWebModel
             {
                 JobCode = job.JobCode,
                 Title = job.Title,
@@ -37,7 +38,7 @@ namespace RecruitingWeb.Controllers
 
         // Saving the Submission Information
         [HttpPost]
-        public async Task<IActionResult> Create(SubmissionRequestModel model)
+        public async Task<IActionResult> Create(SubmissionRequestWebModel model)
         {
             // check if the model is valid, on the server
             bool cond = await _submissionService.EmailExisted(model.Email);

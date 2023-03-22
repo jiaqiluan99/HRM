@@ -17,6 +17,12 @@ namespace Infrastructure.Repositories
             bool cond = await _dbContext.Candidates.AnyAsync<Candidate>(c => c.Email == email);
             return cond;
         }
+
+        public async Task<Submission> GetSubmissionById(int id)
+        {
+            var submission = await _dbContext.Submissions.FirstOrDefaultAsync(j => j.Id == id);
+            return submission;
+        }
     }
 }
 

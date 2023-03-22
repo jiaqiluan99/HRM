@@ -1,52 +1,22 @@
-﻿<Properties StartupConfiguration="{BDE9A237-288C-4792-A16E-D8295876A1B8}|http" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/RecruitingWeb/Program.cs">
-    <Files>
-      <File FileName="Services/Recruiting/RecruitingWeb/Views/Submissions/Create.cshtml" Line="43" Column="19" />
-      <File FileName="Services/Recruiting/RecruitingWeb/Infra/RecruitingMiddleware.cs" Line="10" Column="6" />
-      <File FileName="Services/Recruiting/RecruitingWeb/Program.cs" Line="17" Column="42" />
-    </Files>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BDE9A237-288C-4792-A16E-D8295876A1B8}|http">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HRM">
-            <Node name="Recruiting" expanded="True">
-              <Node name="ApplicationCore" expanded="True">
-                <Node name="Contracts" expanded="True">
-                  <Node name="Repositories" expanded="True" />
-                  <Node name="Services" expanded="True" />
-                </Node>
-                <Node name="Entities" expanded="True" />
-                <Node name="Models" expanded="True" />
-              </Node>
-              <Node name="Infrastructure" expanded="True">
-                <Node name="Repositories" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
-              <Node name="RecruitingWeb" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Infra" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Jobs" expanded="True" />
-                  <Node name="Submissions" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
+            <Node name="Recruiting" expanded="True" />
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/diveflam00/Projects/HRM/Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" line="41" column="9" />
-    </BreakpointStore>
+    <Breakpoint enabled="false" file="/Users/diveflam00/Projects/HRM/Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" line="41" column="9" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Recruiting.Recruiting.API FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

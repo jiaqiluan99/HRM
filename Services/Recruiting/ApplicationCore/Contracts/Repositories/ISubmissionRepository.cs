@@ -7,6 +7,7 @@ namespace ApplicationCore.Contracts.Repositories
     {
 
         public Task<Boolean> EmailExisted(string email);
+        public Task<Submission> GetSubmissionById(int id);
 
     }
 

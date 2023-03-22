@@ -19,8 +19,6 @@ namespace ApplicationCore.Models
         public string Email { get; set; }
 
         public int JobId { get; set; }
-        public Guid JobCode { get; set; }
-        public string Title { get; set; }
     }
 }
 
