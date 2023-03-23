@@ -20,19 +20,26 @@ builder.Services.AddScoped<ISubmissionRepository, SubmissionRepository>();
 builder.Services.AddScoped<ICandidateService, CandidateService>();
 builder.Services.AddScoped<ICandidateRepository, CandidateRepository>();
 
-// Inject our ConnectionString into DbContext
+
+//containerization
+var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
 builder.Services.AddDbContext<RecruitingDbContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection"))
-);
+    options => options.UseSqlServer(dockerConnectionString)
+    );
+
+// Inject our ConnectionString into DbContext
+//builder.Services.AddDbContext<RecruitingDbContext>(
+//    options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection"))
+//);
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 

@@ -1,0 +1,12 @@
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Authentication.API
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/appsettings.json
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Authentication.API.dll
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Authentication.API.deps.json
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Authentication.API.runtimeconfig.json
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Authentication.API.pdb
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Microsoft.OpenApi.dll
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/diveflam00/Projects/HRM/Services/Authentication/Authentication.API/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

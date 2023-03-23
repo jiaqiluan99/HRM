@@ -1,0 +1,15 @@
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/bin/Debug/net7.0/OnBoarding.Infrastructure.deps.json
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/bin/Debug/net7.0/OnBoarding.Infrastructure.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/bin/Debug/net7.0/OnBoarding.Infrastructure.pdb
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/bin/Debug/net7.0/OnBoarding.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/bin/Debug/net7.0/OnBoarding.ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.csproj.AssemblyReference.cache
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.AssemblyInfoInputs.cache
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.AssemblyInfo.cs
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.csproj.CopyComplete
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/refint/OnBoarding.Infrastructure.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/OnBoarding.Infrastructure.pdb
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.Infrastructure/obj/Debug/net7.0/ref/OnBoarding.Infrastructure.dll

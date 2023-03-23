@@ -1,0 +1,12 @@
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/bin/Release/net7.0/Interviews.ApplicationCore.deps.json
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/bin/Release/net7.0/Interviews.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/bin/Release/net7.0/Interviews.ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.csproj.AssemblyReference.cache
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.AssemblyInfoInputs.cache
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.AssemblyInfo.cs
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/refint/Interviews.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/Interviews.ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/Interviews/Interviews.ApplicationCore/obj/Release/net7.0/ref/Interviews.ApplicationCore.dll

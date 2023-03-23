@@ -1,0 +1,12 @@
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/bin/Release/net7.0/OnBoarding.ApplicationCore.deps.json
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/bin/Release/net7.0/OnBoarding.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/bin/Release/net7.0/OnBoarding.ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.csproj.AssemblyReference.cache
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.AssemblyInfoInputs.cache
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.AssemblyInfo.cs
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/refint/OnBoarding.ApplicationCore.dll
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/OnBoarding.ApplicationCore.pdb
+/Users/diveflam00/Projects/HRM/Services/OnBoarding/OnBoarding.ApplicationCore/obj/Release/net7.0/ref/OnBoarding.ApplicationCore.dll
