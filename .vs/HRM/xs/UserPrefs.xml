@@ -1,49 +1,26 @@
 ﻿<Properties StartupConfiguration="{04748738-C318-4F0E-8162-C24452A72B4F}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Services.Recruiting.Recruiting.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint enabled="false" file="/Users/diveflam00/Projects/HRM/Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" line="42" column="9" />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/Recruiting.API/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Services.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Authentication/Authentication.API/Models/RegisterModel.cs">
     <Files>
-      <File FileName="Services/Recruiting/Recruiting.API/Program.cs" Line="13" Column="56" />
-      <File FileName="Services/Recruiting/Recruiting.API/Controllers/JobsController.cs" Line="38" Column="9" />
-      <File FileName="Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" Line="1" Column="1" />
-      <File FileName="Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" Line="43" Column="13" />
-      <File FileName="Services/Recruiting/Recruiting.API/Controllers/SubmissionsController.cs" Line="33" Column="10" />
-      <File FileName="Services/Recruiting/Infrastructure/Services/JobService.cs" Line="38" Column="5" />
-      <File FileName="Services/Recruiting/Infrastructure/Services/SubmissionService.cs" Line="28" Column="53" />
-      <File FileName="Services/Recruiting/Infrastructure/Repositories/JobRepository.cs" Line="24" Column="6" />
-      <File FileName="Services/Recruiting/ApplicationCore/Models/SubmissionResponseModel.cs" Line="1" Column="1" />
-      <File FileName="Services/Recruiting/RecruitingWeb/Program.cs" Line="13" Column="1" />
+      <File FileName="Services/Authentication/Authentication.API/Program.cs" Line="24" Column="33" />
+      <File FileName="Services/Recruiting/RecruitingWeb/Program.cs" Line="1" Column="1" />
+      <File FileName="Services/Authentication/Authentication.API/Controllers/AccountController.cs" Line="14" Column="9" />
+      <File FileName="Services/Authentication/Authentication.API/Models/RegisterModel.cs" Line="10" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HRM">
-            <Node name="Recruiting" expanded="True">
-              <Node name="ApplicationCore" expanded="True">
-                <Node name="Contracts" expanded="True">
-                  <Node name="Repositories" expanded="True" />
-                  <Node name="Services" expanded="True" />
-                </Node>
-                <Node name="Entities" expanded="True" />
-                <Node name="Models" expanded="True" />
-              </Node>
-              <Node name="Infrastructure" expanded="True">
-                <Node name="Repositories" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
-              <Node name="Recruiting.API" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Properties" expanded="True" />
-              </Node>
-              <Node name="RecruitingWeb" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Jobs" expanded="True" />
-                  <Node name="Submissions" expanded="True" />
+          <Node name="HRM" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="Authentication" expanded="True">
+                <Node name="Authentication.API">
+                  <Node name="Models" expanded="True">
+                    <Node name="RegisterModel.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -52,8 +29,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Services.Recruiting.Recruiting.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Services.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/diveflam00/Projects/HRM/Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" line="42" column="9" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
