@@ -1,4 +1,12 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿
+
+using System.Text;
+using Interviews.Infrastructure.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -7,11 +15,25 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//containerization
-//var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
-//builder.Services.AddDbContext<DbContext>(
-//    options => options.UseSqlServer(dockerConnectionString)
-//    );
+builder.Services.AddDbContext<InterviewsDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewsDbConnection")));
+
+// Microsoft.AspNetCore.Authentication.JwtBearer
+// Microsoft.IdentityModel.Tokens
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "HRM",
+            ValidAudience = "HRM Users",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SecretKey"]))
+        };
+    });
+
 
 var app = builder.Build();
 
@@ -23,10 +45,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
-
