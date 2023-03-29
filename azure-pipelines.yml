@@ -39,7 +39,7 @@ steps:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.BinariesDirectory)/**/*'
+    archiveFile: '$(Build.BinariesDirectory)/$(artifactName)'
     replaceExistingArchive: true
   displayName: 'Archive'
 
