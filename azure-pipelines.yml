@@ -7,7 +7,7 @@ trigger:
 
 pool:
   name: Testpool
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
 
 variables:
   buildConfiguration: 'Release'
