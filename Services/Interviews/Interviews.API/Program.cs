@@ -15,8 +15,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<InterviewsDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewsDbConnection")));
+//containerization
+var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
+builder.Services.AddDbContext<InterviewsDbContext>(
+    options => options.UseSqlServer(dockerConnectionString)
+    );
+
+//builder.Services.AddDbContext<InterviewsDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewsDbConnection")));
 
 // Microsoft.AspNetCore.Authentication.JwtBearer
 // Microsoft.IdentityModel.Tokens
