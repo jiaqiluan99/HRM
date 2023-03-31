@@ -56,7 +56,7 @@ app.UseAuthorization();
 
 app.UseCors(policy =>
 {
-    policy.WithOrigins("http://localhost:4200/").AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+    policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().AllowCredentials();
 });
 
 app.MapControllers();
