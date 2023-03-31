@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mfTaScvZxCsTzrtk7pP5L5u2OCoSGtCSRxonY8hC/S/346Mwpu71zgkeFxhyscQg4yZIGwGD1OEDHCDWBA2C4Q==",
+  "dgSpecHash": "YWSziXzSJxekLjHEThP3ETf3ObKXawBL0HCCsuYM6rxMOVBW0mhIfS7kNpxWpG21bUnpbS8b80VzXaegMsXaog==",
   "success": true,
   "projectFilePath": "/Users/diveflam00/Projects/HRM/Services/Recruiting/Recruiting.API/Recruiting.API.csproj",
   "expectedPackageFiles": [
@@ -44,10 +44,10 @@
     "/Users/diveflam00/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/diveflam00/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/diveflam00/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
-    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/diveflam00/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/Users/diveflam00/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/diveflam00/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/diveflam00/.nuget/packages/system.configuration.configurationmanager/5.0.0/system.configuration.configurationmanager.5.0.0.nupkg.sha512",

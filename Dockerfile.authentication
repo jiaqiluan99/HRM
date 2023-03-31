@@ -19,5 +19,5 @@ RUN dotnet publish "Authentication.API.csproj" -c Release -o /app/publish -r lin
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENV MSSQLConnectionString='Server=tcp:march2023hrmjl.database.windows.net,1433;Initial Catalog=AUthentication;Persist Security Info=False;User ID=marchBatch;Password=March2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+ENV MSSQLConnectionString='Server=tcp:march2023hrmjl.database.windows.net,1433;Initial Catalog=Authentication;Persist Security Info=False;User ID=marchBatch;Password=March2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
 ENTRYPOINT ["dotnet", "Authentication.API.dll"]
