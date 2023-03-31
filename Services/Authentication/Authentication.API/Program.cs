@@ -13,10 +13,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddDbContext<AuthenticationDbContext>
-(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDbConnection"))
-);
+
+//containerization
+var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
+builder.Services.AddDbContext<AuthenticationDbContext>(
+    options => options.UseSqlServer(dockerConnectionString)
+    );
+//builder.Services.AddDbContext<AuthenticationDbContext>
+//(
+//    options => options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDbConnection"))
+//);
 
 // Specific to Identity Database
 builder.Services.AddIdentity<User, Role>()
@@ -26,11 +32,11 @@ builder.Services.AddIdentity<User, Role>()
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 
