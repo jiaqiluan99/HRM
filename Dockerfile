@@ -22,4 +22,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENV MSSQLConnectionString='Server=tcp:march2023hrmjl.database.windows.net,1433;Initial Catalog=Recruiting;Persist Security Info=False;User ID=marchBatch;Password=March2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+ENV RedisConnectionString='march2023jl.redis.cache.windows.net:6380,password=buPMinmsJO1hPw941BITRT8wJbIM85WuoAzCaOFPBE4=,ssl=True,abortConnect=False' 
 ENTRYPOINT ["dotnet", "Recruiting.API.dll"]

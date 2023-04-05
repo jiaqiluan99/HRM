@@ -4,7 +4,7 @@ using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Cors;
+using Microsoft.Extensions.Caching.Distributed;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +32,12 @@ builder.Services.AddDbContext<RecruitingDbContext>(
 //builder.Services.AddDbContext<RecruitingDbContext>(
 //    options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection"))
 //);
+
+var RedisConnectionString = Environment.GetEnvironmentVariable("RedisConnectionString");
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = RedisConnectionString;
+});
 
 var app = builder.Build();
 

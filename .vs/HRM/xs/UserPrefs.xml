@@ -1,20 +1,22 @@
-﻿<Properties StartupConfiguration="{F78275A9-6272-4FC1-887E-7EEF0D506F4A}|http" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/Recruiting.API/Program.cs">
-    <Files>
-      <File FileName="Services/Authentication/Authentication.API/Program.cs" Line="17" Column="19" />
-      <File FileName="Services/Recruiting/Recruiting.API/Program.cs" Line="48" Column="1" />
-    </Files>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A9F03289-E3EA-41CD-8F3C-F17BE7F4D8B2}|http">
+  <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Services.Authentication.Authentication.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Services.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HRM" expanded="True">
             <Node name="Services" expanded="True">
-              <Node name="Recruiting" expanded="True">
-                <Node name="Recruiting.API" expanded="True">
-                  <Node name="Controllers" expanded="True" />
+              <Node name="Authentication" expanded="True">
+                <Node name="Authentication.API" expanded="True">
                   <Node name="Program.cs" selected="True" />
                 </Node>
+              </Node>
+              <Node name="Recruiting" expanded="True">
+                <Node name="Recruiting.API" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -22,16 +24,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Services.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint enabled="false" file="/Users/diveflam00/Projects/HRM/Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/SubmissionsController.cs" line="42" column="9" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Services.Authentication.Authentication.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.HRM PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Services.Recruiting.Recruiting.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
